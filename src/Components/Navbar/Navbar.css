@@ -1,0 +1,13 @@
+.navbar-component {
+  background-color: #fff;
+  height: 70px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 0 gray;
+}
+.news {
+  flex: 5;
+}
