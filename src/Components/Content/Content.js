@@ -5,10 +5,10 @@ import "./Content.css";
 
 const Content = ({ newsArray }) => {
     return (
-        <div>
+        <div className="component">
     {newsArray.map((newsItem, index) => {
       return (
-        <div className="component">
+        <div>
           <NewsComponent author={newsItem.author} />
         </div>
         )
